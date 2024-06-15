@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Ice-Cream</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <nav>
+    <a href="index.html">home</a>
+  </nav>
+  <h1>Ice Cream Problem</h1>
+
+  <h2>Problem</h2>
+  <p>
+    There are 8 kids in line to get ice cream. Some are boys, some are girls. How many boys are in line?
+  </p>
+  <p> Link to <a href="https://www.canva.com/design/DAGIEfhZNj4/j48V3WNfdQX4MACWr9UUUA/edit">problem on Canva</a>
+  </p>
+
+  <h2>Solution</h2>
+
+  <pre>For Each Person in Line 
+  If the person is a boy 
+  then tally
+  Else do nothing</pre>
+
+  <h2>
+    Picture/Diagram
+  </h2>
+  <p> This is my diagram from Canva.</p>
+  <div class="diagram-container">
+    <img width="90%" alt="diagram of sock problem" src="ice-cream.png">
+  </div>
+  <h2>Pseudocode</h2>
+
+  <pre>
+        let boysCounter = 0
+
+        for each person in line 
+        if person is a boy then 
+        boysCounter = boysCounter +1
+        end if
+        end for
+
+        print (boysCounter)
+      </pre>
+
+  <h2>
+    Discussion
+  </h2>
+  <pre>
+  In the line of kids, 
+  look at each position that 
+  each kid is in line, and the boys 
+  counter's position is tallied.
+  The boys counter is increased when
+  there is a boy in that position in 
+  line</pre>
+
+  <h2>Examples</h2>
+  <table style="border: solid">
+    <tr>
+      <th style="border-bottom: solid">position in line</th>
+      <th style="border-bottom: solid">
+        boysCounter
+      </th>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1
+
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>
+        2
+      </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>
+        2
+      </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>
+        3
+      </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>
+        3
+      </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>
+        4
+      </td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>5</td>
+    </tr>
+
+
+  </table>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
